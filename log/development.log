@@ -52,3 +52,28 @@ Started GET "/pages/help" for 127.0.0.1 at 2011-03-01 06:45:06 +0000
   Processing by PagesController#help as HTML
 Rendered pages/help.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-03-01 12:13:08 +0000
+  Processing by Rails::InfoController#properties as 
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW TABLES[0m
+Rendered inline template (0.5ms)
+Completed 200 OK in 69ms (Views: 1.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-03-01 12:13:11 +0000
+  Processing by Rails::InfoController#properties as 
+Rendered inline template (0.6ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-03-01 12:13:24 +0000
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-03-01 14:03:39 +0000
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
