@@ -209,3 +209,28 @@ ActionController::RoutingError (No route matches "/images/logo.png"):
   
 
 Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-03-02 14:08:41 +0000
+
+ActionController::RoutingError (No route matches "/pages/home"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-03-02 14:10:43 +0000
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2011-03-02 14:10:43 +0000
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
